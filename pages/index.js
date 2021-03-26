@@ -3,15 +3,25 @@ import styles from '../styles/Home.module.css'
 
 export default function Home() {
   return (
-    <div className={styles.container}>
+    <div>
       <Head>
         <title>Tyler Yates Portfolio</title>
         <link rel="icon" href="/popAvatarZoom.PNG" />
       </Head>
 
-      <main className={styles.main}></main>
+      <main>
+          <div class={styles.hero}>
+            <div class='wrapper'>
+              <div class={styles.aboutMe}>
+                <h1>About me</h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Sed elementum tempus egestas sed sed risus pretium quam vulputate. Non consectetur a erat nam at lectus urna duis. Et egestas quis ipsum suspendisse ultrices. Ullamcorper morbi tincidunt ornare massa. Aliquet risus feugiat in ante metus dictum at tempor. Tincidunt lobortis feugiat vivamus at augue eget arcu.</p>
+              </div>
+            </div>
+          </div>
+      </main>
       
-      <footer className={styles.footer}></footer>
+      <footer>
+      </footer>
       
     </div>
   )
