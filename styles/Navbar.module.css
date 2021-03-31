@@ -1,0 +1,11 @@
+.bar {
+    display: flex;
+    color: #fff;
+    background-color: #222222;
+    font-size: 2rem;
+    padding: 10px;
+}
+
+.bar__button {
+    margin: 0 10px;
+}
