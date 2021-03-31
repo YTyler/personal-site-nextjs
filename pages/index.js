@@ -8,6 +8,8 @@ export default function Home() {
       <Head>
         <title>Tyler Yates Portfolio</title>
         <link rel="icon" href="/popAvatarZoom.PNG" />
+        <link rel="preconnect" href="https://fonts.gstatic.com"/>
+        <link href="https://fonts.googleapis.com/css2?family=Courier+Prime:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"/>
       </Head>
 
       <main>
