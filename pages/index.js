@@ -1,5 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
+import Navbar from '../components/Navbar'
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
+          <Navbar/>
           <div class={styles.hero}>
             <div class='wrapper'>
               <div class={styles.aboutMe}>
@@ -19,7 +21,6 @@ export default function Home() {
             </div>
           </div>
       </main>
-      
       <footer>
       </footer>
       
