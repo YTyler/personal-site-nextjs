@@ -7,7 +7,11 @@
     box-shadow: .5em .5em black;
 }
 
-.card__image {
+.image_container {
     margin: 5%;
     border-radius: 1em;
 }
+.card__image {
+    border-radius: 1em;
+}
+
