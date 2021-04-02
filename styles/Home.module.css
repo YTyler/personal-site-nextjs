@@ -6,4 +6,10 @@
 
 .aboutMe {
     width: 70%;
+    border: red 1px solid;
+}
+
+.hero__image {
+    border-radius: 100%;
+    width: 20%;
 }
