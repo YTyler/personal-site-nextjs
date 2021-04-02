@@ -21,7 +21,11 @@ a {
 
 .wrapper {
   display: flex;
-  width: 80%;
+  width: 70%;
   max-width: 100000;
   margin: 0 auto;
+}
+
+.col {
+  width: 100%;
 }

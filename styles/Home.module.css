@@ -5,11 +5,13 @@
 }
 
 .aboutMe {
-    width: 70%;
-    border: red 1px solid;
+    width: 60%;
 }
 
-.hero__image {
-    border-radius: 100%;
-    width: 20%;
+.self__image {
+    border-radius: 50%;
+}
+
+.resume {
+   border: black 1px;
 }
