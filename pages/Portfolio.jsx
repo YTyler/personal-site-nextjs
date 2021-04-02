@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import styles from '../styles/Portfolio.module.css'
 import Navbar from '../components/Navbar'
+import ProjectCard from '../components/ProjectCard'
 
 export default function Portfolio() {
     return (
@@ -16,11 +17,10 @@ export default function Portfolio() {
                 <Navbar />
                 <div class='hero'>
                     <div class='wrapper'>
-                        <div>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Egestas integer eget aliquet nibh praesent tristique magna sit amet. Sed elementum tempus egestas sed sed risus pretium quam vulputate. Non consectetur a erat nam at lectus urna duis. Et egestas quis ipsum suspendisse ultrices. Ullamcorper morbi tincidunt ornare massa. Aliquet risus feugiat in ante metus dictum at tempor. Tincidunt lobortis feugiat vivamus at augue eget arcu.</p>
-                        </div>
+                        <ProjectCard url='/waterfall.jpg' alttext='waterfall'></ProjectCard>
+                        <ProjectCard url='/waterfall.jpg' alttext='waterfall'></ProjectCard>
+                        <ProjectCard url='/waterfall.jpg' alttext='waterfall'></ProjectCard>
                     </div>
-
                 </div>
             </main>
             <footer>
