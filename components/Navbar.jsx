@@ -6,7 +6,8 @@ export default function Navbar() {
     <div class={styles.bar}>
       <a href="/" class={styles.bar__button}>Home</a>
       <a href="Portfolio" class={styles.bar__button}>Portfolio</a>
-      <a href="Contact" class={styles.bar__button}>Contact Info</a>
+      <a href="Contact" class={styles.bar__button}>Contact</a>
+      <a href="Test" class={styles.bar__button}>Test</a>
     </div>
   );
 }
