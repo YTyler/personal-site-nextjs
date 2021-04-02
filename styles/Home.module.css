@@ -1,7 +1,7 @@
 .hero {
     padding: 15px 0;
-    background-color: #4a2875;
-    color: #FFF;
+    border: black 2px solid;
+    color: black;
 }
 
 .aboutMe {
