@@ -15,7 +15,7 @@ export default function Home() {
 
       <main>
           <Navbar/>
-          <div class={styles.hero}>
+          <div class='hero'>
             <div class='wrapper'>
               <div class={styles.aboutMe}>
                 <h1>About Me</h1>
