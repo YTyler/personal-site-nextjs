@@ -19,6 +19,9 @@ export default function Portfolio() {
                     <div class='wrapper'>
                         <ProjectCard url='/waterfall.jpg' alttext='waterfall'></ProjectCard>
                         <ProjectCard url='/waterfall.jpg' alttext='waterfall'></ProjectCard>
+                    </div>
+                    <div class='wrapper'>
+                        <ProjectCard url='/waterfall.jpg' alttext='waterfall'></ProjectCard>
                         <ProjectCard url='/waterfall.jpg' alttext='waterfall'></ProjectCard>
                     </div>
                 </div>

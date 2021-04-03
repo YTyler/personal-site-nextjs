@@ -2,16 +2,21 @@
     background-color: #a8a8a8;
     border: black 1px solid;
     border-radius: 1em;
-    margin: 10px;
+    margin: 2%;
     text-align: center;
     box-shadow: .5em .5em black;
 }
 
 .image_container {
-    margin: 5%;
-    border-radius: 1em;
+    margin: 5% 5% 0 5%;
+    border: black 2px solid;
+    border-radius: 1.1em;
 }
 .card__image {
     border-radius: 1em;
+}
+
+.description {
+    padding: 1em;
 }
 
