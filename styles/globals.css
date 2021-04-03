@@ -20,14 +20,14 @@ a {
 }
 
 .hero {
-    padding: 2em 0;
-    border: black 2px solid;
+  width: 100%;
+  padding: 2em 0;
+  border: black 2px solid;
 }
 
 .wrapper {
   display: flex;
   width: 70%;
-  max-width: 100000;
   margin: 0 auto;
 }
 
