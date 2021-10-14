@@ -1,5 +1,5 @@
 import Head from "next/head";
-import styles from "../styles/Portfolio.module.css";
+import styles from "../styles/pages/Portfolio.module.css";
 import Navbar from "../components/Navbar";
 import ProjectCard from "../components/ProjectCard";
 
